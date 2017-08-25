@@ -1,0 +1,16 @@
+days, 27
+
+Earth
+mass, 5.97e24
+position, 0, 0, 0
+velocity, 0, 0, 0
+
+Moon
+mass, 7.34e22
+position, 3.84e8, 0, 0
+velocity, 0, 1000, 0
+
+GeoSat
+mass, 1200
+position, 3.58e7, 0, 0
+velocity, 0, 3070, 0
