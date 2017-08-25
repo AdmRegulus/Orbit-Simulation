@@ -2,7 +2,7 @@
 
 **Summary**
 
-This program is used to predict the paths of multi-body orbital systems via Newton's laws of motion. This is accomplished through the use of a nonadaptive RK 4th-order method with a small timestep of one second. This simulation DOES NOT account for relativistic effects.
+This program is used to predict the paths of objects in multi-body orbital systems via Newton's laws of motion. This is accomplished through the use of a nonadaptive 4th-order RK method with a small timestep of one second. This simulation DOES NOT account for relativistic effects.
 
 **How to input data**
 
