@@ -24,7 +24,7 @@ This program is intended to be compiled via gcc using the following command:
 
 For greater performance if necessary, this compilation can be modified with the following command:
 
->gcc -std=c11 -Ofast -march=native OrbitMain_v0.8.c OrbitFunctions_v0.8.h -lm -o Orbit.exe>
+>gcc -std=c11 -Ofast -march=native OrbitMain_v0.8.c OrbitFunctions_v0.8.h -lm -o Orbit.exe
 
 On newer hardware, it may be necessary to download and install a later version of gcc for the -march=native command to have any effect.
 
