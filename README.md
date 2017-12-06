@@ -14,7 +14,7 @@ If the program does not detect the file when it runs, it will ask to create a sa
 
 The x, y, and z positions of each object in the listed order are given in an output file under the name of SimulationResult.csv. Each line in the output file corresponds to the new conditions after one minute of time, so the file may be quite large for long runs. This file can be opened in any spreadsheet for plotting and analysis.
 
-The PlotOrbits.m file is included as a quick script for plotting in Matlab or Octave. Simply adjust the example file path to the location of SimulationResult.csv.
+The PlotOrbits.m file is included as a quick script for plotting in Matlab or Octave. Copy this code into Matlab, and simply adjust the example file path to the location of SimulationResult.csv.
 
 **Compilation**
 
