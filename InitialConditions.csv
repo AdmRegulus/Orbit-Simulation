@@ -10,7 +10,13 @@ mass, 7.34e22
 position, 3.84e8, 0, 0
 velocity, 0, 1000, 0
 
-GeoSat
+GeostationarySatellite
 mass, 1200
 position, 3.58e7, 0, 0
-velocity, 0, 3070, 0
+velocity, 0, 3070, 0InternationalSpaceStation
+mass, 419455
+position, 740626.73, -6644976.48, 1151109.69
+velocity, 4724.433862, 1545.169511, 5838.010655LunarReconOrbiter
+mass, 1000
+position, 3.84e8, 0, 1.787e6
+velocity, -1600, 1000, 0

@@ -1,13 +1,20 @@
 clc;
 clear all;
+
+PATH = 'C://Users/Jonah/Pro/Orbits/GitHub/v0.9/SimulationResult.csv';
+
+data = csvread(PATH);
+
+sz = size(data);
+objects = sz(2) / 3;
+
+figure
+plot3(data(:,1), data(:,2), data(:,3));
 hold on;
 
-data = csvread('C://Example/File/Path/SimulationResult.csv');
+for x = 1:(objects - 1)
+    plot3(data(:, 3 * x + 1), data(:, 3 * x + 2), data(:, 3 * x + 3)); 
+end
 
-plot(data(:,1), data(:,2), 'yellow');
-plot(data(:,4), data(:,5), 'black');
-plot(data(:,7), data(:,8), 'magenta');
-plot(data(:,10), data(:,11), 'blue');
-plot(data(:,13), data(:,14), 'green');
-plot(data(:,16), data(:,17), 'cyan');
-daspect([1 1 1])
+daspect([1 1 1]);
+pbaspect([1 1 1]);
