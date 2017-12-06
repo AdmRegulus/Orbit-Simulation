@@ -20,11 +20,11 @@ The PlotOrbits.m file is included as a quick script for plotting in Matlab or Oc
 
 This program is intended to be compiled via gcc using the following command:
 
->gcc -std=c11 -O1 OrbitMain_v0.8.c OrbitFunctions_v0.8.h -lm -o Orbit.exe
+>gcc -std=c11 -O1 OrbitMain_v0.9.c OrbitFunctions_v0.9.h -lm -o Orbit.exe
 
 For greater performance if necessary, this compilation can be modified with the following command:
 
->gcc -std=c11 -Ofast -march=native OrbitMain_v0.8.c OrbitFunctions_v0.8.h -lm -o Orbit.exe
+>gcc -std=c11 -Ofast -march=native OrbitMain_v0.9.c OrbitFunctions_v0.9.h -lm -o Orbit.exe
 
 On newer hardware, it may be necessary to download and install a later version of gcc for the -march=native command to have any effect.
 
@@ -32,10 +32,4 @@ It may be possible to compile with a compiler other than gcc, but I have not tri
 
 **Known bugs**
 
-It is currently possible for a divide by zero error to occur.
-
-If more than three objects are listed, the SimulationResult.csv file will only contain the data for the first three.
-
 If InitialConditions.csv is not formatted correctly, the input will not be read as intended. This can occur if the file is edited in Excel or similar software.
-
-If a memory allocation error occurrs, the code to exit has not yet been implemented. This could cause strange bugs, but is very unlikely to happen on a system with sufficient (more than a few free MB) RAM.
