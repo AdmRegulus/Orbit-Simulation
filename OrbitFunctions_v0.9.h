@@ -264,12 +264,12 @@ void GenerateSampleFile()
 	fprintf(sample, "GeostationarySatellite\n");
 	fprintf(sample, "mass, 1200\n");
 	fprintf(sample, "position, 3.58e7, 0, 0\n");
-	fprintf(sample, "velocity, 0, 3070, 0");
+	fprintf(sample, "velocity, 0, 3070, 0\n\n");
 	
 	fprintf(sample, "InternationalSpaceStation\n");
 	fprintf(sample, "mass, 419455\n");
 	fprintf(sample, "position, 740626.73, -6644976.48, 1151109.69\n");
-	fprintf(sample, "velocity, 4724.433862, 1545.169511, 5838.010655");
+	fprintf(sample, "velocity, 4724.433862, 1545.169511, 5838.010655\n\n");
 	
 	fprintf(sample, "LunarReconOrbiter\n");
 	fprintf(sample, "mass, 1000\n");
