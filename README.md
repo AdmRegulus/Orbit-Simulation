@@ -1,5 +1,7 @@
 # Orbit-Simulation
 
+![Example system of 200 objects simulated for 60 days](https://i.imgur.com/ZukMWrZ.png)
+
 **Summary**
 
 This program is used to predict the paths of objects in multi-body orbital systems via Newton's laws of motion. This is accomplished through the use of a nonadaptive 4th-order RK method with a small timestep of one second. This simulation DOES NOT account for relativistic effects.
