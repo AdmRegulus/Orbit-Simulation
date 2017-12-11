@@ -1,7 +1,8 @@
 # Orbit-Simulation
 
 ![Example system of 200 objects simulated for 60 days](https://i.imgur.com/ZukMWrZ.png)
-Example of a system plotted in MATLAB
+
+<sub><sup>Example of a system plotted in MATLAB</sup></sub>
 
 **Summary**
 
